@@ -1,5 +1,9 @@
 BookNum後端API，負責專案建制，以及Match交友配對相關的所有Controller
+
 MatchController訂立配對規則，以邏輯回歸計算配對分數擇優推薦
+
 MatchChatController使用SignalR即時通訊在房間內廣播聊天室相關事件 
+
 MatchPaypalController串接Paypal第三方金流，達成訂閱解鎖會員功能，安全交易
+
 MatchInfoController使用Azure Face API進行人臉辨識，提升交友品質
